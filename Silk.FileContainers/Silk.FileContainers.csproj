@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard1.6;net451</TargetFrameworks>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Version>0.0.0.1</Version>
+    <Authors>John Carruthers</Authors>
+    <Company>FragLabs</Company>
+    <Product>Silk .NET</Product>
+    <Description>Abstracted file API for working with local and remotely stored files.</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.S3" Version="3.3.5.7" />
+  </ItemGroup>
+
+</Project>
